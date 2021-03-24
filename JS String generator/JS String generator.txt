@@ -40,6 +40,9 @@ function rand(min, max) {
     
 }
 
-//write anything at line 22
-//and it will generate strings with the characters you gave it
-//string generator made by me lol
+//set the length of the string at line 6
+//write the characters it can use at line 22 (example: "abcd1234", they must have no spaces between them!)
+
+//IMPORTANT: To run it, install node.js and save the file as -something-.js . Then, open cmd, navigate to the directory of -something-.js and type "node -something-.js". That will use node.js to run your file.
+
+//it will generate strings with the characters you gave it
