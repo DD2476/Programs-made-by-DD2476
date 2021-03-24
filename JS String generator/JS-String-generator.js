@@ -15,14 +15,6 @@ function script() {
     
     console.log(generate(16))
     
-    if (x < 10) {
-        
-        script()
-        
-        x = x + 1
-        
-    }
-    
 }
 
 script()
