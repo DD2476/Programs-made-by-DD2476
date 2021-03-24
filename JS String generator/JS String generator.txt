@@ -1,0 +1,45 @@
+//MADE BY DD2476
+let x = 0;
+
+function script() {
+    
+    console.log(generate(16))
+    
+    if (x < 10) {
+        
+        script()
+        
+        x = x + 1
+        
+    }
+    
+}
+
+script()
+
+function generate(length) {
+    
+    let allowed = "01"
+    let result = "";
+        
+    for(var i=0; i < length; i++){
+        
+        let rere = rand(0, allowed.length)
+        
+        result = result + allowed.substring(rere, rere + 1)
+        
+    }
+    
+    return result;
+    
+}
+
+function rand(min, max) {
+    
+    return Math.floor(Math.random() * (max - min) ) + min;
+    
+}
+
+//write anything at line 22
+//and it will generate strings with the characters you gave it
+//string generator made by me lol
